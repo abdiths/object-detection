@@ -50,8 +50,8 @@ while True:
         print("Can't receive frame! Exiting")
         break
     
-    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-    cv.imshow('frame', gray)
+    # background = cv.cvtColor(frame, cv.COLOR_BGR)
+    # cv.imshow('frame', background)
     if cv.waitKey(1) ==  ord('q'):
         break
 
